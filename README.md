@@ -1,5 +1,4 @@
 # twitter-network
-Building out a twitter network visualization
 Twitter accounts are connected to each other by following and being followed by other twitter accounts. For this project we put together some code that will allow you to visualize a chunk of this network.
 
 Starting with an initial account name, a spider program will download all the friends (people that account follows) and save this list into a database. The spider will then read the next name in the database and download that account's friends list and so on. The spider will record which accounts are connected to each other in a separate table. 
